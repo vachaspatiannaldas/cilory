@@ -1,0 +1,166 @@
+.carttitleprice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.cartsizeColor {
+  display: flex;
+  color: cadetblue;
+  font-size: 15px;
+}
+.cartsize {
+  margin-right: 13px;
+}
+.cartsize span {
+  margin-right: 8px;
+}
+
+.cartcolor span {
+  margin-right: 4px;
+}
+.cartqty {
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.cartqty > div {
+  margin-right: 17px;
+}
+.cartproductprice {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cartqty select {
+  width: 55px;
+  display: block;
+  height: 26px;
+}
+.cartinfo {
+  border: 1px solid rgba(129, 145, 145, 0.205);
+  margin-right: 20px;
+  position: relative;
+  margin-bottom: 26px;
+}
+.cartcol {
+  margin: 1px;
+  border-right: 1px solid rgba(95, 158, 160, 0.549);
+}
+.cartwhishdelete {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  float: left;
+}
+.cartshortinfo {
+  position: relative;
+}
+.cartinfo > div:first-child {
+  border: 1px solid rgba(95, 158, 160, 0.235);
+  border-top: 0px solid;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+.cartwhishdelete button {
+  width: 100%;
+  background-color: rgba(137, 43, 226, 0.506);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding: 6px;
+  border: none;
+}
+
+.cartwhishdelete > div {
+  padding: 0px !important;
+}
+.cartwhishdelete div {
+  border: 1px solid rgba(95, 158, 160, 0.264);
+  padding: 10px;
+}
+.cartimage {
+  padding: 0px 1px;
+  margin: 0px 0px;
+}
+.cartproducttitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 57%;
+  height: fit-content;
+}
+.cartemptysection .cartempty {
+  min-height: 70vh;
+  min-width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cartemptysection .cartempty p {
+  font-weight: 300;
+  font-size: x-large;
+  padding: 7px 10px;
+}
+.cartemptysection .cartemptyicon {
+  margin-bottom: 10px;
+}
+.cartempty button {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  font-size: large;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+@media (min-width: 230px) and (max-width: 480px) {
+  .cartinfo {
+    border: 1px solid rgba(129, 145, 145, 0.205);
+    margin-right: 20px;
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: 16px;
+    box-shadow: rgba(140, 160, 178, 0.495) 3px 3px 6px 0px inset,
+      rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  }
+  .cartwhishdelete button {
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.506);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 3px;
+    border: none;
+  }
+  .carttitleprice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+  }
+  .cartwhishdelete {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    float: left;
+  }
+  .cartqty {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,108 @@
+.order-item-row {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding-bottom: 10px;
+}
+.order-item-row a:hover {
+  color: white !important;
+}
+.order-item-row a {
+  color: white !important;
+}
+.your-order-header {
+  font-weight: 300;
+  padding: 10px 0px;
+}
+.width80 {
+  width: 83%;
+}
+.toporderinfo {
+  padding: 7px;
+}
+.order-product-name,
+.order-product-price {
+  font-size: 16px;
+  font-weight: 500;
+  width: 88%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.expected-delivery {
+  font-weight: 500;
+  color: rgba(9, 193, 134, 0.996);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.orderidinfo {
+  padding: 10px 0px;
+}
+.orderlistrow a {
+  color: rgb(21, 20, 20);
+}
+
+@media (min-width: 230px) and (max-width: 480px) {
+  .width80 {
+    width: 100%;
+  }
+  .toporderinfo {
+    font-size: 12px;
+  }
+  .order-product-name,
+  .order-product-price {
+    font-size: 14px;
+    font-weight: 500;
+    width: 187px;
+    overflow: hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .expected-delivery {
+    font-weight: 500;
+    color: rgba(9, 193, 134, 0.996);
+    width: 100%;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .orderlistrow {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 !important;
+  }
+  .orderlistrow a {
+    display: block;
+    margin-bottom: 14px;
+  }
+
+  .your-order-header {
+    padding: 10px 20px;
+  }
+  .order-item-row {
+    margin: 0;
+    margin-bottom: 0 !important;
+  }
+  .your-orders {
+    padding: 0;
+  }
+  .your-orders a {
+    color: rgb(56, 17, 17);
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

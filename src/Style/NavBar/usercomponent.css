@@ -1,0 +1,78 @@
+.Usercomponent-section {
+  position: absolute;
+  top: 100%;
+  transform: translateX(-20px);
+  background-color: white;
+  border-top: 3px solid blueviolet;
+  visibility: hidden;
+  z-index: 3;
+  transition: all 0.4s;
+  opacity: 0;
+  width: 187px;
+}
+
+.Usercomponent-section ul li:hover {
+  background-color: rgba(137, 43, 226, 0.149);
+}
+.Usercomponent-section ul {
+  margin: 0;
+  padding: 0;
+}
+.Usercomponent-section ul a {
+  padding: 0px !important;
+}
+.logout-btn {
+  width: 100%;
+  border: none;
+  padding: 10px 24px;
+  text-align: left;
+  border-top: 1px solid blueviolet;
+}
+.Usercomponent-section ul .logout-btn-li {
+  padding: 0 !important;
+}
+.Usercomponent-section ul li {
+  padding: 10px 20px;
+  padding-right: 40px;
+  text-align: justify;
+  margin: auto !important;
+  display: block;
+  margin: 4px 0px;
+}
+
+@media (min-width: 1025px) {
+  .profile:hover .Usercomponent-section {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 230px) and (max-width: 480px) {
+  .Trending-heading {
+    display: none;
+  }
+  .logout-btn {
+    border: none;
+  }
+  .Usercomponent-phone .Usercomponent-section {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 4px 0px 10px 20px;
+  }
+  .Usercomponent-phone .Usercomponent-section ul {
+    width: 100% !important;
+  }
+  .Usercomponent-phone .Usercomponent-section ul a:first-child {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.Notification-section {
+  position: fixed;
+  top: 100px;
+  width: fit-content;
+  padding: 20px 30px;
+  background-color: rgba(98, 13, 177, 0.914);
+  right: 8%;
+  animation: 0.7s notify;
+  animation-iteration-count: 1;
+  color: white;
+  z-index: 7;
+}
+@keyframes notify {
+  0% {
+    top: 40px;
+  }
+  100% {
+    top: 100px;
+  }
+}
+@media (min-width: 230px) and (max-width: 480px) {
+  .Notification-section {
+    padding: 15px;
+    font-size: 14px;
+  }
+}

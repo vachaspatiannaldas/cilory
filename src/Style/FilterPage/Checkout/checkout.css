@@ -1,0 +1,85 @@
+.checkoutHeading {
+  padding: 10px 10.7% 24px 12.4%;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.cartcol {
+  margin: 1px;
+  border-right: 1px solid rgba(95, 158, 160, 0.549);
+}
+.PriceCalculation .PriceDeatil {
+  margin-bottom: 20px;
+  font-size: 16.8px;
+  font-weight: 400;
+  color: cadetblue;
+}
+
+.PriceCalculation .row div {
+  margin: 5px 0px;
+  font-size: 15px;
+}
+.PriceCalculation .ByeNow {
+  margin-top: 20px !important;
+}
+.PriceCalculation .ByeNow button {
+  width: 100%;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: blueviolet;
+  padding: 8px 10px;
+  border: none;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.PriceCalculation .total,
+.totalprice {
+  font-weight: 600;
+  font-size: large !important;
+}
+.PriceCalculation .total span {
+  font-size: 11.8px;
+  font-weight: 100;
+  margin-left: 4px;
+}
+.ByeNowtotal {
+  display: none;
+}
+@media (min-width: 230px) and (max-width: 480px) {
+  .checkoutHeading {
+    padding-left: 17px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+  }
+  .ByeNowBox {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 253, 253, 0.996);
+    padding: 10px;
+    margin-bottom: 0px !important;
+  }
+  .ByeNowtotal {
+    display: block;
+    width: 30%;
+    padding: 3% 3%;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 23px !important;
+  }
+  .ByeNowBox button {
+    width: 60% !important;
+  }
+  .ByeNow {
+    position: fixed;
+    bottom: 0%;
+    z-index: 8;
+    width: 100%;
+    left: 0;
+    margin-bottom: 0px !important;
+    padding: 0;
+  }
+  .PriceCalculation {
+    margin-top: 40px;
+  }
+}

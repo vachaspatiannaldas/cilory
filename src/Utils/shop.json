@@ -1,0 +1,822 @@
+{
+  "drawer_ad": {
+    "imgUrl": "https://static.cilory.com/mobile/img/drawer/drawer-kurtis.jpg",
+    "name": "Kurtis",
+    "id_category": "144"
+  },
+  "banner_slides": [
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/WESTERN_WEAR_app_11_22.jpg",
+      "name": "Dresses",
+      "id_category": 202,
+      "link": "/202-western-wear-dress"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/GOWN_app_4_10_.jpeg",
+      "name": "Suits",
+      "id_category": 185,
+      "link": "/185-ethnic-women-suits"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/SAREE_app_10.jpeg",
+      "name": "Saree",
+      "id_category": 181,
+      "link": "/181-sarees"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/POLO_app_27-09.jpg",
+      "name": "Polos",
+      "id_category": 136,
+      "link": "/136-men-polos"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/WOMEN_SHIRT_app_10.jpg",
+      "name": "Shirts",
+      "id_category": 517,
+      "link": "/517-women-shirts"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/PANTS_app_30-09.jpg",
+      "name": "Trousers",
+      "id_category": 197,
+      "link": "/197-women-trousers"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/SUIT_APP_27-09.jpg",
+      "name": "Suits",
+      "id_category": 185,
+      "link": "/185-ethnic-women-suits"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/FULL_SLEEVE_TEES_app_09.jpg",
+      "name": "Full sleeve tees",
+      "id_category": 484,
+      "link": "/484-full-sleeve-tees"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/TUNICS_app_09.jpeg",
+      "name": "Tunics",
+      "id_category": 612,
+      "link": "/612-women-tunics"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/PARTYKURTIS_app_09.jpg",
+      "name": "Party Wear",
+      "id_category": 486,
+      "link": "/486-party-wear-kurtis"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/ETHNIC_app_desk_09.jpg",
+      "name": "Suits",
+      "id_category": 540,
+      "link": "/540-stitched-ethnic-suits"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/PRINTED_TEE_app_25-07-22.jpg",
+      "name": "Printed",
+      "id_category": 605,
+      "link": "/605-printed-t-shirts"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/JEWEL_app_08.jpg",
+      "name": "Jewellery",
+      "id_category": 64,
+      "link": "/64-women-jewellery"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/SHIRT_app_25-7-22.jpg",
+      "name": "Shirts",
+      "id_category": 498,
+      "link": "/498-casual-wear-shirts"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/TEE_app_07.jpg",
+      "name": "Basic Tees",
+      "id_category": 606,
+      "link": "/606-men-plain-t-shirts"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/NIGHT-WEAR_app_05.jpg",
+      "name": "Nightwear",
+      "id_category": 24,
+      "link": "/24-women-night-wear"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/NIGHTWEAR_app.jpg",
+      "name": "Nightwear",
+      "id_category": 24,
+      "link": "/24-women-night-wear"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/CUSHION_COVERS_app.jpg",
+      "name": "Home Decor",
+      "id_category": 169,
+      "link": "/169-home-decor"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/KURTIWITHBOTTOM_APP_08-01-22.jpg",
+      "name": "Kurti with Bottom",
+      "id_category": 604,
+      "link": "/604-kurtis-with-bottom"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/HNW_app_06-10.jpg",
+      "name": "Personal Care",
+      "id_category": 620,
+      "link": "/620-health-and-wellness"
+    },
+    {
+      "imgUrl": "https://static.cilory.com/mobile/img/sliders/KIDS_mob_14-05-2019.jpg",
+      "name": "Kids",
+      "id_category": 413,
+      "link": "/413-kids-store"
+    }
+  ],
+
+  "tabs": [
+    {
+      "title": "Home",
+      "url": "/",
+      "categories": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATEGORYMEN_mob_07-01-20.jpg",
+          "name": "Men",
+          "id_category": -1,
+          "link": null
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATEGORYWOMEN.jpg",
+          "name": "Women",
+          "id_category": -1,
+          "link": null
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATEGORYKIDS_mob_07-01-20.jpg",
+          "name": "Kids",
+          "id_category": -1,
+          "link": null
+        }
+      ]
+    },
+    {
+      "title": "Men",
+      "url": "/men",
+      "categories": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATPOLO-TEE_mob_07-01-20(2).jpg",
+          "name": "Polo",
+          "id_category": 136,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATFULLSLEEVE-T_mob_07-01-20.jpg",
+          "name": "Fullsleeve Tees",
+          "id_category": 484,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATROUNDNECK_mob_07-01-20.jpg",
+          "name": "Basic Tees",
+          "id_category": 216,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATGRAPHICTEE_mob_07-01-20.jpg",
+          "name": "Graphic Tees",
+          "id_category": 215,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATSLOGANTEE_mob_07-01-20.jpg",
+          "name": "Slogan Tees",
+          "id_category": 217,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATCASUAL-SHIRT_mob_07-01-20-(2).jpg",
+          "name": "Casual Shirts",
+          "id_category": 498,
+          "link": "/men-Casual-Shirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATMENWINTER_mob_10-01-20.jpg",
+          "name": "Winterwear",
+          "id_category": 471,
+          "link": "/men?season=Winter"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SHORTS_mob_07-01-20.jpg",
+          "name": "Shorts",
+          "id_category": 205,
+          "link": "/en-shorts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATVNECKTEE_mob_07-01-20.jpg",
+          "name": "Basic V Necks",
+          "id_category": 497,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-ST-28-08-2020.jpg",
+          "name": "Stripped Tees",
+          "id_category": 614,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATHENLEYS_mob_07-01-20.jpg",
+          "name": "Henleys",
+          "id_category": 301,
+          "link": "/men-tshirt"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATSPORTTEE_mob_07-01-20.jpg",
+          "name": "Sports Tees",
+          "id_category": 303,
+          "link": "/men-track-pant"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_MENETHNICWEAR.jpg",
+          "name": "Ethnic Wear",
+          "id_category": 559,
+          "link": "/men-Sherwani"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATLINENSHIRTS_mob_07-01-20.jpg",
+          "name": "Linen Shirts",
+          "id_category": 569,
+          "link": "/men-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATFORMALSHIRTS_mob_07-01-20.jpg",
+          "name": "Formal Shirts",
+          "id_category": 499,
+          "link": "/men-formal-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATPARTYSHIRT_mob_07-01-20(2).jpg",
+          "name": "Partywear Shirts",
+          "id_category": 507,
+          "link": "/men-Kurtas"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATJEANS_mob_07-01-20.jpg",
+          "name": "Jeans",
+          "id_category": 222,
+          "link": "/men-Jense"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_TROUSERS_mob_07-01-20.jpg",
+          "name": "Trousers",
+          "id_category": 500,
+          "link": "/men-formal-trouser"
+        }
+      ],
+      "banner_slides": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/POLO_app_27-09.jpg",
+          "name": "Polos",
+          "id_category": 136,
+          "link": "/136-men-polos"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/FULL_SLEEVE_TEES_app_09.jpg",
+          "name": "Full sleeve tees",
+          "id_category": 484,
+          "link": "/484-full-sleeve-tees"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/PRINTED_TEE_app_25-07-22.jpg",
+          "name": "Printed",
+          "id_category": 605,
+          "link": "/605-printed-t-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SHIRT_app_25-7-22.jpg",
+          "name": "Shirts",
+          "id_category": 498,
+          "link": "/498-casual-wear-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/TEE_app_07.jpg",
+          "name": "Basic Tees",
+          "id_category": 606,
+          "link": "/606-men-plain-t-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SLOGAN_APP.jpg",
+          "name": "Slogan Tees",
+          "id_category": 217,
+          "link": "/217-slogan-t-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SHIRT_app_21-08-21.jpg",
+          "name": "Shirts",
+          "id_category": 498,
+          "link": "/498-casual-wear-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/MASK_app_14-07-21.jpg",
+          "name": "Masks",
+          "id_category": 621,
+          "link": "/621-masks"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/JEANS_mob_26-04-18.jpg",
+          "name": "Jeans",
+          "id_category": 222,
+          "link": "/222-men-jeans"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/MENFOOTWEAR_mob_20-02-2019.jpg",
+          "name": "Footwear",
+          "id_category": 574,
+          "link": "/574-men-footwear"
+        }
+      ]
+    },
+    {
+      "title": "Women",
+      "url": "/women",
+      "categories": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-TUNICS-10-01-2020_(2).jpg",
+          "name": "Tunics",
+          "id_category": 612,
+          "link": "/women-tunics"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-DRESS-10-01-2020(2).jpg",
+          "name": "Dress",
+          "id_category": 202,
+          "link": "/women-western-wear-dress"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_TOPS_10-01-2020.jpg",
+          "name": "Tops",
+          "id_category": 153,
+          "link": "/women-tops"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SHIRTS-10-01-2020.jpg",
+          "name": "Shirts",
+          "id_category": 517,
+          "link": "/women-shirts"
+        },
+
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SUITS-10-01-2020.jpg",
+          "name": "Suits",
+          "id_category": 185,
+          "link": "/women-Kurta-and-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_STICHSUIT-10-10-2020.jpg",
+          "name": "Ethnic Suits",
+          "id_category": 540,
+          "link": "/women-Kurta-and-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-KURTIS_WITH_BOTTOM-10-01-2020_(2)_.jpg",
+          "name": "Kurtis with Bottom",
+          "id_category": 604,
+          "link": "/women-Kurta-and-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-DAILY_WEAR_KURTIS-10-01-2020.jpg",
+          "name": "Dailywear Kurtis",
+          "id_category": 487,
+          "link": "/women-Kurta-and-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-DESINGERKURTI-10-01-2020_.jpg",
+          "name": "Partywear Kurtis",
+          "id_category": 486,
+          "link": "/women-Kurtis-Tunics-and-Tops"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CATSAREE-10-01-2020_.jpg",
+          "name": "Sarees",
+          "id_category": 181,
+          "link": "/women-sarres"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-LENGHA-07-07-2020.jpg",
+          "name": "Lahenga",
+          "id_category": 297,
+          "link": "/women-Lehenga-cholis"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-WINTER_WEAR-10-01-2020.jpg",
+          "name": "Winterwear",
+          "id_category": 480,
+          "link": "/women?season=Winter"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_JEANS-10-01-2020_.jpg",
+          "name": "Jeans",
+          "id_category": 558,
+          "link": "/women-Jeans"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SHRUGS-10-01-2020_(2)_.jpg",
+          "name": "Shrugs",
+          "id_category": 570,
+          "link": "/women-Shrugs"
+        },
+
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-PALAZZOS_TROUSERS-10-01-202(2).jpg",
+          "name": "Palazzos",
+          "id_category": 539,
+          "link": "/women-skirts-and-palazzos"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_LEGGINGS-10-01-2020_.jpg",
+          "name": "Leggings",
+          "id_category": 174,
+          "link": "/women-leggings-jeggings"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-TROUSERS-10-01-2020_.jpg",
+          "name": "Trousers",
+          "id_category": 197,
+          "link": "/women-Trousers-and-capris"
+        },
+
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_SKIRTS-10-01-2020_(2)_.jpg",
+          "name": "Skirts",
+          "id_category": 196,
+          "link": "/women-Shorts-and-skirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SHORTS-10-01-2020_(2).jpg",
+          "name": "Shorts",
+          "id_category": 478,
+          "link": "/women-Shorts-and-skirts"
+        },
+
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_NIGHT_WEAR-10-01-2020_(2).jpg",
+          "name": "Nightwear",
+          "id_category": 24,
+          "link": "/women-Sleepwear-and-Loungwear"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-SHAPEWEAR-10-01-2020_.jpg",
+          "name": "Shapewear",
+          "id_category": 133,
+          "link": "/women-Shapewear"
+        }
+      ],
+      "banner_slides": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/GOWN_app_4_10_.jpeg",
+          "name": "Suits",
+          "id_category": 540,
+          "link": "/540-stitched-ethnic-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/WESTERN_WEAR_app_11_22.jpg",
+          "name": "Dresses",
+          "id_category": 202,
+          "link": "/202-western-wear-dress"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SAREE_app_10.jpeg",
+          "name": "Saree",
+          "id_category": 181,
+          "link": "/181-sarees"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/WOMEN_SHIRT_app_10.jpg",
+          "name": "Shirts",
+          "id_category": 517,
+          "link": "/517-women-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SUIT_APP_27-09.jpg",
+          "name": "Suits",
+          "id_category": 185,
+          "link": "/185-ethnic-women-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/PANTS_app_30-09.jpg",
+          "name": "Trousers",
+          "id_category": 197,
+          "link": "/197-women-trousers"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/TUNICS_app_09.jpeg",
+          "name": "Tunics",
+          "id_category": 612,
+          "link": "/612-women-tunics"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/PARTYKURTIS_app_09.jpg",
+          "name": "Party Wear",
+          "id_category": 486,
+          "link": "/486-party-wear-kurtis"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/JEWEL_app_08.jpg",
+          "name": "Jewellery",
+          "id_category": 64,
+          "link": "/64-women-jewellery"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/ETHNIC_app_desk_09.jpg",
+          "name": "Suits",
+          "id_category": 540,
+          "link": "/540-stitched-ethnic-suits"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/TIE_DYE_500_05-08-22---.jpg",
+          "name": "Dress",
+          "id_category": 202,
+          "link": "/202-western-wear-dress"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/DENIM_app_07.jpg",
+          "name": "Denim",
+          "id_category": 558,
+          "link": "/558-women-jeans"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/TOP_app_6.jpg",
+          "name": "Tops",
+          "id_category": 516,
+          "link": "/516-women-tops-tees-shirts"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/NIGHT-WEAR_app_05.jpg",
+          "name": "Nightwear",
+          "id_category": 24,
+          "link": "/24-women-night-wear"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/KURTI_APP_06.jpg",
+          "name": "Kurti",
+          "id_category": 487,
+          "link": "/487-regular-wear-kurtis"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/HEEL_app.jpg",
+          "name": "Footwear",
+          "id_category": 563,
+          "link": "/563-women-footwear"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/SPORTS_WEAR_app.jpg",
+          "name": "Sports Wear",
+          "id_category": 470,
+          "link": "/470-women-sports-and-gym-wear"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CUSHION_COVERS_app.jpg",
+          "name": "Home Decor",
+          "id_category": 169,
+          "link": "/169-home-decor"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/KURTIWITHBOTTOM_APP_08-01-22.jpg",
+          "name": "Kurti with Bottom",
+          "id_category": 604,
+          "link": "/604-kurtis-with-bottom"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/HD_app_09-10-21.jpg",
+          "name": "Home Decor",
+          "id_category": 169,
+          "link": "/169-home-decor"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/HNW_app_06-10.jpg",
+          "name": "Personal Care",
+          "id_category": 620,
+          "link": "/620-health-and-wellness"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/LINGERIE_mob_26-07-2019.jpg",
+          "name": "Lingerie",
+          "id_category": 21,
+          "link": "/21-lingerie"
+        }
+      ]
+    },
+    {
+      "title": "Kids",
+      "url": "/kids-store",
+      "categories": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_BOYS_CLOTHING-10-01-2020_(2).jpg",
+          "name": "Boys Clothing",
+          "id_category": 414,
+          "link": "/kids-clothing"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-GIRLS_CLOTHING-10-01-2020_(2).jpg",
+          "name": "Girls Clothing",
+          "id_category": 417,
+          "link": "/kids-girls-clothing"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-STATIONARY-25-06-2020.jpg",
+          "name": "Stationary",
+          "id_category": 625,
+          "link": "/625-stationary"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_KIDSPC-17-07-2020_2.jpg",
+          "name": "Personal Care",
+          "id_category": 634,
+          "link": "/634-kids-personal-care"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_JEWELLERY_AND_HAIR_ACCESORIES-10-01-2020_.jpg",
+          "name": "Jewellery and More",
+          "id_category": 143,
+          "link": "/143-kids-jewellery-hair-accesories"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-LUNCH_BOX-10-01-2020_.jpg",
+          "name": "Lunch Box",
+          "id_category": 422,
+          "link": "/422-lunch-box"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_BOOKS-09-11-20.jpg",
+          "name": "Books and More",
+          "id_category": 430,
+          "link": "/430-books-and-more"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_KIDS_BAG-10-01-2020_(2).jpg",
+          "name": "Bags",
+          "id_category": 264,
+          "link": "/264-kids-bag"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-PENCIL_BOX-10-01-2020_.jpg",
+          "name": "Pencil Box",
+          "id_category": 420,
+          "link": "/420-pencil-box"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/toys.jpg",
+          "name": "Toys and Games",
+          "id_category": 431,
+          "link": "/431-toys-games"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT-WATER_BOTTLE-10-01-2020_.jpg",
+          "name": "Water Bottle",
+          "id_category": 421,
+          "link": "/421-water-bottle"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/CAT_Accessories-10-01-2020.jpg",
+          "name": "Accessories",
+          "id_category": 432,
+          "link": "/432-kids-accessories"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/ESSENTIALS_app_27_04_20_2.jpg",
+          "name": "Health",
+          "id_category": 620,
+          "link": "/620-health-and-wellness"
+        }
+      ],
+      "banner_slides": [
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/kids-mob-0809.jpg",
+          "name": "Kids",
+          "id_category": 413,
+          "link": "/413-kids-store"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/KIDS_mob_14-05-2019.jpg",
+          "name": "Kids",
+          "id_category": 413,
+          "link": "/413-kids-store"
+        },
+        {
+          "imgUrl": "https://static.cilory.com/mobile/img/sliders/KIDS_mob_22-06-18..jpg",
+          "name": "Kids",
+          "id_category": 413,
+          "link": "/413-kids-store"
+        }
+      ]
+    }
+  ],
+  "bestsellers": [
+    {
+      "id_product": 174423,
+      "name": "C&D By Monte Carlo Mustard Hi-Neck with Zip Pullover",
+      "link_rewrite": "cd-by-monte-carlo-mustard-hi-neck-with-zip-pullover",
+      "id_image": 639342,
+      "category": "men-sweater",
+      "price": 1545,
+      "price_without_reduction": 1545
+    },
+    {
+      "id_product": 175034,
+      "name": "C&D By Monte Carlo Black Zipper Hoodie",
+      "link_rewrite": "cd-by-monte-carlo-black-zipper-hoodie",
+      "id_image": 642020,
+      "category": "men-hoodie",
+      "price": 1825,
+      "price_without_reduction": 1825
+    },
+    {
+      "id_product": 174750,
+      "name": "Maroon Ikat Print Tunic With Sleeves Tab",
+      "link_rewrite": "maroon-ikat-print-tunic-with-sleeves-tab",
+      "id_image": 641774,
+      "category": "women-tunics",
+      "price": 699,
+      "price_without_reduction": 699
+    },
+    {
+      "id_product": 174880,
+      "name": "Pre Winter Flannel Checks Hi-Low Long Shirt By Estonished",
+      "link_rewrite": "pre-winter-flannel-checks-hi-low-long-shirt-by-estonished",
+      "id_image": 641748,
+      "category": "women-shirts",
+      "price": 899,
+      "price_without_reduction": 899
+    },
+    {
+      "id_product": 175104,
+      "name": "C&D By Monte Carlo Reversible Ribbed Jacket",
+      "link_rewrite": "cd-by-monte-carlo-reversible-ribbed-jacket",
+      "id_image": 642255,
+      "category": "men-jackets",
+      "price": 2595,
+      "price_without_reduction": 2595
+    },
+    {
+      "id_product": 175105,
+      "name": "C&D By Monte Carlo Reversible Ribbed Jacket",
+      "link_rewrite": "cd-by-monte-carlo-reversible-ribbed-jacket",
+      "id_image": 642266,
+      "category": "men-jackets",
+      "price": 2595,
+      "price_without_reduction": 2595
+    },
+    {
+      "id_product": 174458,
+      "name": "Grunt Quilted Puff Heavy Winter Reversible Jacket",
+      "link_rewrite": "grunt-quilted-puff-heavy-winter-reversible-jacket",
+      "id_image": 639621,
+      "category": "men-jackets",
+      "price": 2799,
+      "price_without_reduction": 2799
+    },
+    {
+      "id_product": 174453,
+      "name": "White Puffer Sleeveless Reversible Jacket By Grunt",
+      "link_rewrite": "white-puffer-sleeveless-reversible-jacket-by-grunt",
+      "id_image": 639620,
+      "category": "men-sleeveless-jackets",
+      "price": 2099,
+      "price_without_reduction": 2099
+    },
+    {
+      "id_product": 174745,
+      "name": "Estonished Leaf Print Casual Hoodie Dress",
+      "link_rewrite": "estonished-leaf-print-casual-hoodie-dress",
+      "id_image": 641699,
+      "category": "midi-dress",
+      "price": 849,
+      "price_without_reduction": 849
+    },
+    {
+      "id_product": 175035,
+      "name": "C&D By Monte Carlo Grey Melange Zipper Hoodie",
+      "link_rewrite": "cd-by-monte-carlo-grey-melange-zipper-hoodie",
+      "id_image": 642026,
+      "category": "men-hoodie",
+      "price": 1825,
+      "price_without_reduction": 1825
+    },
+    {
+      "id_product": 171550,
+      "name": "Black & Brown Striped Polo T-Shirt",
+      "link_rewrite": "black-brown-striped-polo-t-shirt",
+      "id_image": 641550,
+      "category": "stripes",
+      "price": 699,
+      "price_without_reduction": 699
+    },
+    {
+      "id_product": 175019,
+      "name": "Black Floral Print Casual Hoodie Dress",
+      "link_rewrite": "black-floral-print-casual-hoodie-dress",
+      "id_image": 642570,
+      "category": "midi-dress",
+      "price": 799,
+      "price_without_reduction": 799
+    }
+  ]
+}

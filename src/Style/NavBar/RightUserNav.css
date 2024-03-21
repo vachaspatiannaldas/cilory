@@ -1,0 +1,383 @@
+.NavBarRow {
+  justify-content: center;
+  align-items: center !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  height: 80px;
+}
+.NavBarRow nav {
+  padding: 0px;
+}
+.LeftSideNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.cart-count {
+  color: brown;
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: blueviolet;
+  border-radius: 50%;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.logo {
+  width: 10%;
+}
+.NavToggle {
+  display: none;
+}
+.overlay-display-container {
+  position: absolute;
+  height: 430px;
+  width: 80%;
+  left: 10%;
+  visibility: none;
+  opacity: 0;
+  right: 10%;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s;
+  transition-delay: 0.17s;
+  z-index: 3;
+  pointer-events: auto;
+  border-top: 1px solid blueviolet;
+}
+.overlay-display {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  z-index: 3;
+  visibility: hidden;
+  background-color: rgba(127, 67, 14, 0.371);
+  pointer-events: none;
+}
+.top-category-name:hover .overlay-display {
+  visibility: visible;
+  opacity: 1;
+}
+.top-category-name:hover .overlay-display-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.NavBarTopCategory {
+  height: 100%;
+}
+.NavBarTopCategory > ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  height: 80px;
+  padding-left: 25px;
+  align-items: flex-end;
+}
+.NavBarTopCategory > ul > li {
+  display: block;
+  margin: 0px 8px;
+  position: relative;
+}
+.navbar-close-btn {
+  display: none;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+ul li a {
+  color: cadetblue;
+  text-decoration: none;
+}
+.NavBarTopCategory > ul > li > div > a {
+  display: block;
+  color: brown;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 28px;
+}
+.category-list-section {
+  margin: 0px 10px;
+  overflow: auto;
+}
+.category-list-section .category-ul-list {
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  height: 437px;
+  float: left;
+  font-weight: 600;
+}
+.category-list-section .category-ul-list li > a {
+  padding: 12px 25px 2px;
+  line-height: 26px;
+  display: block;
+}
+.NavBarTopCategory {
+  height: 100%;
+}
+
+.category-nested-category-list {
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  color: blueviolet !important;
+}
+
+.category-nested-category-list:hover > a {
+  font-weight: 600;
+  font-size: 15px;
+  color: blueviolet;
+}
+
+.top-category-list {
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding: 0px;
+}
+button {
+  outline: 0;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.RightUserNav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 80px;
+  align-items: flex-end;
+}
+.RightUserNav > div {
+  display: block;
+  text-align: center;
+  padding-bottom: 14px;
+  font-size: 13px;
+  position: relative;
+}
+.RightUserNav > div span {
+  display: block;
+}
+.UserLoginDetailPhone {
+  display: none;
+}
+.UserDetailLinks {
+  display: none !important;
+}
+@media (min-width: 230px) and (max-width: 480px) {
+  .logo {
+    width: 47%;
+  }
+  .category-nested-category-list {
+    padding-left: 13px;
+  }
+
+  .topcategory-name-link::after {
+    position: relative;
+    content: "+";
+    margin-left: auto;
+    float: right;
+    padding-right: 30px;
+    font-weight: 100;
+  }
+
+  .category-ul-list > li:first-child > a:after {
+    position: relative;
+    content: "+";
+    float: right;
+    font-weight: 100;
+  }
+
+  .active .topcategory-name-link::after {
+    content: "-";
+  }
+  .ulactive li:first-child > a:after {
+    content: "-";
+  }
+  .navbar-close-btn {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    padding: 4px 16px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(137, 43, 226, 0.33);
+  }
+  .NavBarTopCategory > ul > li > div > a {
+    padding: 0;
+    color: white !important;
+  }
+  .NavBarRow {
+    justify-content: space-between;
+    height: 64px;
+  }
+  .RightUserNav {
+    height: 58px;
+    align-items: center;
+  }
+  .RightUserNav > div {
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: x-small;
+  }
+  .NavToggle {
+    display: block;
+    height: 100%;
+    width: fit-content;
+    font-size: x-large;
+  }
+  .LeftSideNav > div {
+    margin: 0px 8px;
+  }
+  .NavBarTopCategory {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 100%;
+    z-index: 14;
+    top: 0;
+    background-color: rgba(79, 33, 33, 0.448);
+    transition: all 0.4s;
+    margin: 0 !important;
+  }
+  .navshow {
+    left: 0;
+  }
+  .navhide {
+    left: 100%;
+  }
+  .NavBarTopCategory > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 70%;
+    overflow: visible !important;
+    height: 100% !important;
+    background-color: white;
+  }
+  .NavBarTopCategory > ul > li {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+
+  .overlay-display {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    height: fit-content !important;
+    overflow: hidden;
+  }
+
+  .overlay-display-container {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .UserLoginDetailPhone {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 70%;
+    justify-content: space-around;
+    padding: 10px 28px;
+    background-color: cadetblue;
+  }
+  .UserLoginIcon {
+    font-size: 34px;
+    color: white;
+  }
+  .UserLoginInfo {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .UserLoginInfo span {
+    display: block;
+  }
+  .NavBarTopCategory > ul > li > div > a {
+    width: 100%;
+    left: 0;
+    padding-left: 20px;
+    display: block;
+    font-weight: 600;
+    color: cadetblue !important;
+  }
+  .top-category-name > .link-style {
+    padding: 10px;
+    color: cadetblue !important;
+    border-bottom: 0.3px solid cadetblue;
+  }
+  .category-ul-list {
+    height: 0 !important;
+    width: 100% !important;
+  }
+  .category-ul-list li {
+    display: none;
+  }
+  .category-list-section ul:last-child {
+    padding-bottom: 8px;
+  }
+  .category-ul-list li:first-child {
+    display: block;
+  }
+  .overlay-display-container {
+    height: 0 !important;
+    border-top: 0px solid;
+  }
+
+  .active .category-ul-list {
+    height: fit-content !important;
+  }
+  .active .overlay-display-container {
+    height: fit-content !important;
+  }
+  .ulactive li {
+    display: block;
+  }
+  .UserDetailLinks {
+    display: block !important;
+    padding: 8px 20px;
+    border: 0.1px solid rgba(95, 158, 160, 0.432);
+  }
+  .UserDetailLinks i {
+    font-size: 24px;
+    margin-right: 6px;
+  }
+  .UserDetailLinks span {
+    margin-left: 8px;
+    padding-left: 3px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

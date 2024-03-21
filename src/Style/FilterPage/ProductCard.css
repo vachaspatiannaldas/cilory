@@ -1,0 +1,78 @@
+.ProductCard {
+  padding: 14px;
+  padding-bottom: 1px;
+}
+.ProductCard > div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.imageload {
+  background-color: cadetblue;
+  min-height: 266px;
+  animation: infinite 1s imgloading;
+}
+@keyframes imgloading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Productinfo {
+  padding: 0px 8px;
+  padding-bottom: 4px;
+}
+
+.ProductCard .ProductName {
+  font-weight: 400;
+  width: 100% !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 13px;
+  color: cadetblue;
+  height: fit-content;
+}
+.ProductCard .price {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.ProductCard .Productbrand {
+  color: rgb(0, 0, 0);
+
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 15px;
+  padding-top: 3px;
+}
+.ProductCard .mrp {
+  font-size: 12px;
+  padding: 3px 8px;
+  text-decoration: line-through;
+  color: cadetblue;
+}
+.ProductCard .discount {
+  font-size: 13px;
+  color: orange;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+@media (min-width: 481px) and (max-width: 767px) {
+}
+@media (min-width: 230px) and (max-width: 480px) {
+  .Productinfo {
+    padding-right: 0;
+  }
+  .ProductCard .discount {
+    font-size: 11px;
+    color: orange;
+  }
+}
